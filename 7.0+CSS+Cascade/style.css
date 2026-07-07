@@ -13,3 +13,7 @@ p {
 .white-text {
   color: white;
 }
+.inner-box {
+  background-color: red;
+  padding: 10px;
+}
