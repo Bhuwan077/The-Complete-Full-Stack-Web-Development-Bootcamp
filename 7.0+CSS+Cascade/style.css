@@ -1,4 +1,8 @@
 /* Don't change the existing CSS. */
+#outer-box {
+  border: solid purple 10px;
+  padding: 10px;
+}
 
 .box {
   background-color: blue;
@@ -15,9 +19,5 @@ p {
 }
 .inner-box {
   background-color: red;
-  padding: 10px;
-}
-#outer-box {
-  border: solid purple 10px;
   padding: 10px;
 }
