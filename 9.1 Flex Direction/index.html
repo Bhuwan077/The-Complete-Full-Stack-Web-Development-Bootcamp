@@ -13,7 +13,14 @@
     .container {
       color: white;
       border: 5px solid gold;
-      display: flex;
+      display: inline-flex;
+      flex-direction: column;
+
+    }
+    .container > * {
+      padding: 20px;
+      font-size: 1.5rem;
+      flex-basis: 100px;
     }
 
     /*
