@@ -31,6 +31,8 @@ for(var i=0;document.querySelectorAll(".drum").length;i++){
                 var snare = new Audio("./sounds/snare.mp3");
                 snare.play();
                 break;
+
+                default: console.log(this.innerHTML);
         }   
 })
 }
