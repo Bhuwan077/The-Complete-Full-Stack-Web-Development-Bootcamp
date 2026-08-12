@@ -1,1 +1,1 @@
-document.query
+document.querySelector('.list:nth-child(3)').textContent = 'third';
